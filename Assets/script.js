@@ -38,7 +38,7 @@ function checkLength() {
 }
 
 function checkUppercase() {
-  uppercaseCheck = prompt("Do you want to add uppercase letters in your password (yes/no)");
+  uppercaseCheck = prompt("Do you want to add uppercase letters in your password? (yes/no)");
 
   uppercaseCheck = uppercaseCheck.toLowerCase();
 
@@ -64,7 +64,7 @@ function checkUppercase() {
 }
 
 function checkNumber() {
-  numberCheck = prompt("Do you want to include the numbers in your password (yes/no)");
+  numberCheck = prompt("Do you want to include the numbers in your password? (yes/no)");
 
   if (numberCheck === null || numberCheck === "") {
     alert("Please Give a Yes/No")
@@ -88,7 +88,7 @@ function checkNumber() {
 }
 
 function checkSpecial() {
-  specialCheck = prompt("Do you want to add special characters in your password (yes/no)");
+  specialCheck = prompt("Do you want to add special characters in your password? (yes/no)");
 
   specialCheck = specialCheck.toLowerCase();
 
